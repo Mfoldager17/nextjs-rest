@@ -31,7 +31,9 @@ const Hero = () => {
                         src="/hero.png"
                         alt='hero'
                         fill className="object-contain"
+                        quality={100}
                     />
+                    <div className='hero__image-overlay' />
                 </div>
             </div>
         </div>
